@@ -1,0 +1,26 @@
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github
+$ mkdir MyFirstRepo
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github
+$ cd MyFirstRepo/
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github/MyFirstRepo
+$ touch example.txt
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github/MyFirstRepo
+$ echo "# rtt-61-git-example" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amberimani34/rtt-61-git-example.git
+git push -u origin main
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github/MyFirstRepo (main)
+$ git add -A
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github/MyFirstRepo (main)
+$ git commit -m 'modified README'
+[main 9d9160a] modified README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 example.txt
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github/MyFirstRepo (main)
+$ git push -u
+amber.roberts@LT-0686 MINGW64 ~/OneDrive - Quest Resource Management/Desktop/2024-rtt-61/code/module302/2024-10-07-git-github/MyFirstRepo (main)
+$ git push origin main
+Everything up-to-date
